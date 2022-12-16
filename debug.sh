@@ -15,4 +15,4 @@ git config user.name $DESTINATION_REPOSITORY_USERNAME
 git config user.email actions@"self-hosted".local
 git add --all
 git commit -m "Update beam-site for release" -m "Content generated from commit"
-git push -f $GIT_CMD_REPOSITORY origin update_release_2.29.0
+git push -f $GIT_CMD_REPOSITORY origin master
